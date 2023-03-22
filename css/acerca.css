@@ -1,0 +1,68 @@
+.contenido{
+    width: 80rem;
+    height: 100vh;
+    padding: 3rem;
+
+    margin: auto;
+
+}
+img{
+    width: 6rem;
+    height: 6rem;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(122, 219, 248);
+    padding: 0.01rem;
+}
+.usuario{
+    float: left;
+}
+.componentes{
+    width: 100%;
+    list-style-type: none;
+    text-align: left;
+}
+.componentes li{
+    display: inline-flex;
+    text-align: center;
+}
+.componentes li a{
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    margin: 2rem;
+}
+.componentes li a:hover{
+    background: rgb(47, 103, 224);
+}
+.foto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+.tamañofoto{
+    width: 50rem;
+    height: 25rem;
+}
+.titulo1{
+    display: flex;
+    text-align: left;
+    margin: 2rem;
+}
+.listado{
+    display: flex;
+    text-align: left;
+    margin: 3rem;
+}
+.ultimo a{
+    display: flex;
+    text-align: left;
+    background: rgb(122, 219, 248);
+    padding: 2rem;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
