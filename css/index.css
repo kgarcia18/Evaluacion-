@@ -44,8 +44,14 @@ img{
     margin: 2rem;
 }
 .tamañofoto{
-    width: 50rem;
-    height: 25rem;
+    width: 70rem;
+    height: 35rem;
+}
+.txtimg{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%);
 }
 .titulo1{
     display: flex;
